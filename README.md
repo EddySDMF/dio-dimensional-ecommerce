@@ -8,10 +8,9 @@
 >
 >     Financials_origem (modo oculto – backup)
 >
->
 >     D_Produtos (ID_produto, Produto, Média de Unidades Vendidas, Médias do valor de vendas,
 >                 Mediana do valor de vendas, Valor máximo de Venda, Valor mínimo >   de Venda)
->
+>  
 >     D_Produtos_Detalhes(ID_produtos, Discount Band, Sale Price, Units Sold, Manufactoring Price)
 >
 >     D_Descontos (ID_produto, Discount, Discount Band)
@@ -41,9 +40,11 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 
 ### O ETL dimensional: dimensões e fatos
 
-
-
-
+1. Duplicar a tabela finantials-origem
+  
+2. Escolher somente as colunas correspondentes
+  
+3. Adicionar novas colunas se necessario  
 
 ### O modelo dimensional star schema
 
