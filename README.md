@@ -6,7 +6,7 @@ Inicialmente, a tabela <code>finantials_origem</code> continha todas as colunas 
 
 ![finantials_origem](tabela-finantials.png)
 
-Agora, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões:
+Agora, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões, onde as dimensões se ligam às fatos e permitem o cruzamento dos dados:
 
 ![modelo_dimensional](modelo-dimensional.png)
 
