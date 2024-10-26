@@ -36,25 +36,25 @@
 
 Inicialmente, a tabela <code>finantials_origem</code> continha **todas as colunas do modelo**, como mostra a figura abaixo.
 
-![finantials_origem](tabela-finantials.png)
+![finantials_origem](files/tabela-finantials.png)
 
 ### O ETL dimensional: dimensões e fatos
 
 1. Duplicar a tabela finantials-origem
 
-![Duplicata](01.modelagem)
+![duplicata](files/01.modelagem.png)
 
 2. Escolher somente as colunas correspondentes
 
-![Duplicata](02.modelagem)
+![escolher-colunas](files/02.modelagem.png)
 
 3. Adicionar novas colunas se necessario  
 
-![Duplicata](03.modelagem)
+![adicionar-colunas](files/03.modelagem.png)
 
 ### O modelo dimensional star schema
 
 Agora, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões, onde as dimensões se ligam às fatos e permitem o cruzamento dos dados:
 
-![modelo_dimensional](modelo-dimensional.png)
+![modelo_dimensional](files/modelo-dimensional.png)
 
