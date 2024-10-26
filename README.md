@@ -41,10 +41,16 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 ### O ETL dimensional: dimensões e fatos
 
 1. Duplicar a tabela finantials-origem
-  
+
+![Duplicata](01.modelagem)
+
 2. Escolher somente as colunas correspondentes
-  
+
+![Duplicata](02.modelagem)
+
 3. Adicionar novas colunas se necessario  
+
+![Duplicata](03.modelagem)
 
 ### O modelo dimensional star schema
 
