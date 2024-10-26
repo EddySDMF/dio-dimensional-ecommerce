@@ -3,5 +3,5 @@
 Desafio:
 
 Inicialmente, a tabela finantials_origem
-![Imagem](files/finantials-origem.png)
+![Imagem](files/tabela-finantials.png)
 
