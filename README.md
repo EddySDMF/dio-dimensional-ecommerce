@@ -31,6 +31,7 @@
 - [A tabela finantials-origem](#a-tabela-finantials-origem)
 - [O ETL dimensional: dimensões e fatos](#o-etl-dimensional-dimensões-e-fatos)
 - [O modelo dimensional star schema](#o-modelo-dimensional-star-schema)
+- [A tabela Calendario com DAX]()
 
 ### A tabela <code>finantials-origem</code>
 
@@ -57,4 +58,10 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 Agora, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões, onde as dimensões se ligam às fatos e permitem o cruzamento dos dados:
 
 ![modelo_dimensional](files/modelo-dimensional.png)
+
+### A tabela Calendario com DAX
+
+A tabela calendario foi feita com DAX (*Data Analysis Expressions*), utilizando a função <code>CALENDAR()</code>:
+
+![tabela-calendario](files/tabela-calendario.png)
 
