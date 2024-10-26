@@ -29,13 +29,13 @@
 
 **Sumário**:
 
-- A tabela dimentionals-origem;
-- [O ETL dimensional: dimensões e fatos;](#o-etl-dimensional-dimensões-e-fatos)
-- [O modelo dimensional star schema.](#o-modelo-dimensional-star-schema)
+- [A tabela finantials-origem](#a-tabela-finantials-origem)
+- [O ETL dimensional: dimensões e fatos](#o-etl-dimensional-dimensões-e-fatos)
+- [O modelo dimensional star schema](#o-modelo-dimensional-star-schema)
 
-### A tabela dimentionals-origem
+### A tabela <code>finantials-origem</code>
 
-Inicialmente, a tabela <code>finantials_origem</code> continha todas as colunas do modelo, como mostra a figura abaixo.
+Inicialmente, a tabela <code>finantials_origem</code> continha **todas as colunas do modelo**, como mostra a figura abaixo.
 
 ![finantials_origem](tabela-finantials.png)
 
