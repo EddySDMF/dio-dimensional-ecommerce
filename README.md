@@ -41,6 +41,8 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 
 ### O ETL dimensional: dimensões e fatos
 
+Agora precisamos separar a tabela <code>finantials_origem</code> nas suas dimensões e fatos, como mostra o passo-a-passo:
+
 1. Duplicar a tabela finantials-origem
 
 - ![duplicata](files/01.modelagem.png)
@@ -55,7 +57,7 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 
 ### O modelo dimensional star schema
 
-Agora, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões, onde as dimensões se ligam às fatos e permitem o cruzamento dos dados:
+Por fim, conforme a modelagem dimensional, temos o modelo dividido em fatos e dimensões, onde as dimensões se ligam às fatos e permitem o cruzamento dos dados:
 
 ![modelo_dimensional](files/modelo-dimensional.png)
 
