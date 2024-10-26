@@ -30,7 +30,7 @@
 **Sumário**:
 
 - A tabela dimentionals-origem;
-- [O ETL dimensional: dimensões e fatos;](#o-etl-dimensional:-dimensões-e-fatos)
+- [O ETL dimensional: dimensões e fatos;](#o-etl-dimensional-dimensões-e-fatos)
 - [O modelo dimensional star schema.](#o-modelo-dimensional-star-schema)
 
 ### A tabela dimentionals-origem
