@@ -43,15 +43,15 @@ Inicialmente, a tabela <code>finantials_origem</code> continha **todas as coluna
 
 1. Duplicar a tabela finantials-origem
 
-![duplicata](files/01.modelagem.png)
+- ![duplicata](files/01.modelagem.png)
 
 2. Escolher somente as colunas correspondentes
 
-![escolher-colunas](files/02.modelagem.png)
+- ![escolher-colunas](files/02.modelagem.png)
 
 3. Adicionar novas colunas se necessario  
 
-![adicionar-colunas](files/03.modelagem.png)
+- ![adicionar-colunas](files/03.modelagem.png)
 
 ### O modelo dimensional star schema
 
