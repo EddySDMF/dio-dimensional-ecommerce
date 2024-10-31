@@ -1,5 +1,7 @@
 # Modelando um Dashboard de E-commerce com Power BI Utilizando Fórmulas DAX
 
+Este repositório é a solução do desafio proposto no bootcamp NTT DATA - Engenharia de Dados com Python da DIO.
+
 **Desafio:**
 
 > Utilizaremos a tabela finantials-origem para criar as tabelas dimensão e fato do nosso modelo baseado em star schema.
